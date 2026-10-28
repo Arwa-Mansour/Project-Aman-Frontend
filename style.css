@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*background-color: #f9f5f1;*/
+
+
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200&display=swap');
+
+body {
+    font-family: "Cairo", serif;
+}
+nav{
+    flex: display;
+    space-between:justify-content;
+}
+
+nav section ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f15a03;
+}
+nav  section  li{
+    display: inline;
+   
+}
+
+nav section a{
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+a:hover{
+    color:rgb(29, 28, 28);
+
+}
+.menu-list{
+    flex: display;
+  
+
+}
+.logo{
+
+    display: inline;
+}
+.active {
+    background-color: #5a615e;
+  }
+  .first-sec{
+    display: inline-block;
+  }
+h1{
+   
+    font-weight: lighter;
+    color: #864747;
+   }
+.styleimg{
+float: right;}
